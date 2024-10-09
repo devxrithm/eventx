@@ -9,21 +9,21 @@ import { FaArrowRightToBracket } from "react-icons/fa6";
 const page = () => {
   return (
     <>
-      <div className="shadow-[0_3px_10px_rgb(0,0,0,0.2)] border h-full px-3 py-4 mt-7 rounded-md w-[75%] border-l-8 border-l-orange-500 flex gap-3">
+      <div className="shadow-[0_3px_10px_rgb(0,0,0,0.2)] border max-h-fit px-3 py-4 mt-7 rounded-md w-[100%] border-l-8 border-l-orange-500 flex  ">
         <div className="w-[50%]">
           <Image
             src="/box.jpg"
-            width={300}
-            height={300}
+            width={270}
+            height={270}
             alt="Picture of the author"
             className="rounded-lg"
           />
         </div>
-        <div className="">
+        <div className="w-[80%] flex flex-col justify-around">
           <h1 className="text-2xl font-bold text-gray-600">Microsoft Fabric and AI Learning Hackathon </h1>
 
-          <div className="flex items-end justify-around">
-            <div className="flex gap-2 mt-5 font-semibold  max-w-[75%] flex-wrap justify-evenly">
+          <div className="flex items-end justify-around gap-3">
+            <div className="flex gap-2 mt-5 font-semibold  max-w-[90%] flex-wrap ">
               <p className="border rounded-full bg-orange-600 text-white px-4 py-1 text-center text-sm flex items-center gap-2 "><IoTimer className="text-lg" />
                 About 1 Month Left</p>
 

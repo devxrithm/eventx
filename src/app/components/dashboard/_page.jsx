@@ -111,10 +111,15 @@ const _page = () => {
                         <Searchbox />
                         <hr className="mt-5" />
 
-                        <div className="">
-                            <Eventsboxes />
-                            <Eventsboxes />
-                            <Eventsboxes />
+                        <div className="flex">
+                            <div className=" border-r pr-4">
+                                <Eventsboxes />
+                                <Eventsboxes />
+                                <Eventsboxes />
+                            </div>
+                            <div className="font-bold ml-44">
+                                filter
+                            </div>
                         </div>
                     </div>
                 </div>
