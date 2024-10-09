@@ -8,14 +8,14 @@ import { HiOutlineSpeakerphone } from "react-icons/hi";
 import { MdComputer } from "react-icons/md";
 import { IoIosMore } from "react-icons/io";
 import Searchbox from '../utils/searchbox.jsx/search';
-
+import Eventsboxes from "../utils/events-boxes/page"
 
 const _page = () => {
     return (
         <>
 
             <div className="flex ">
-                <div className="border-r border-gray-200 h-[41rem] py-6 w-[18%] flex flex-col justify-between ">
+                <div className="border-r border-gray-200 h-[41rem] py-6 w-[18%] flex flex-col justify-between fixed">
 
                     <div>
                         <div className="logo rounded-xl flex items-center gap-3 px-4 ">
@@ -104,9 +104,18 @@ const _page = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-[82%]">
-                    <div className="m-5">
+
+
+                <div className="w-[80%] ml-60">
+                    <div className="mt-7 mx-5">
                         <Searchbox />
+                        <hr className="mt-5" />
+
+                        <div className="">
+                            <Eventsboxes />
+                            <Eventsboxes />
+                            <Eventsboxes />
+                        </div>
                     </div>
                 </div>
             </div>
