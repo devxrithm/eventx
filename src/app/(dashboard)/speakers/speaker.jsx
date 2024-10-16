@@ -24,7 +24,7 @@ const speaker = ({ img, name, position, amount, views }) => {
                 </div>
 
                 <div className="border bg-teal-950 text-white px-10 py-2 rounded-md font-semibold flex items-center gap-3">
-                <IoCallSharp className='text-white text-xl'/>    Call
+                  Connect
                 </div>
 
             </div>

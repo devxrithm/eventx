@@ -21,7 +21,7 @@ export default function DashboardLayout({ children }) {
               height={32}
               className="rounded-full"
             />
-            <span className="hidden lg:block md:block font-bold md:text-sm lg:text-base">StartupNation</span>
+            <span className="hidden lg:block md:block font-bold md:text-sm lg:text-xl">EventCrux</span>
           </Link>
 
 

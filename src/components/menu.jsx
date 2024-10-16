@@ -11,6 +11,8 @@ import Link from 'next/link';
 import { FaRegHandshake } from "react-icons/fa";
 import { FaChartLine } from "react-icons/fa";
 import { RiTeamLine } from "react-icons/ri";
+import { CiCirclePlus } from "react-icons/ci";
+import { FiPlusCircle } from "react-icons/fi";
 
 
 
@@ -89,11 +91,18 @@ const menu = () => {
                         </li>
                     </div>
 
+                    <div className='border bg-black text-white flex items-center lg:gap-3 md:gap-3  rounded-lg p-2 md:p-1 lg:px-3 lg:py-2 justify-center lg:justify-start md:justify-start'>
+                        <FiPlusCircle className="text-4xl lg:text-2xl md:text-2xl" />
+                        <li className="font-semibold hidden lg:block md:block md:text-sm lg:text-base">
+                            List your Event
+                        </li>
+                    </div>
+
                 </ul>
 
 
                 <div className="border-t">
-                    <div className='flex items-center gap-5 md:gap-3 hover:bg-green-50 p-2 md:p-1 lg:p-2 justify-center lg:justify-start md:justify-start'>
+                    <div className='flex items-center gap-3 md:gap-3 p-2 md:p-1 lg:p-2 justify-center lg:justify-start md:justify-start'>
                         <FiLogOut className="text-4xl lg:text-2xl md:text-2xl " />
                         <li className="font-semibold hidden lg:block md:block md:text-sm lg:text-base">
                             Logout

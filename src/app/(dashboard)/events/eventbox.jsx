@@ -70,7 +70,7 @@ const eventbox = ({ img }) => {
 
             </div> */}
 
-            <div className="w-[26rem] lg:mx-3 mx-3 mt-5 border rounded-md flex gap-2 p-3">
+            <div className="w-[26rem] lg:mx-3 mx-3 mt-5 border rounded-md flex gap-2 p-3 bg-white shadow-md">
                 <div className="rounded-lg ">
                     <Image
                         src={img}
@@ -109,7 +109,7 @@ const eventbox = ({ img }) => {
 
                         <button className='flex flex-col items-end'>
                             <div className="flex gap-1 items-center border lg:px-3 px-20 py-2 justify-center w-[100%] bg-black rounded text-white">
-                                <p className='font-medium text-sm '>Apply</p>
+                                <p className='font-medium text-sm '>Register</p>
                                 <FaArrowRightToBracket className='text-xl' />
                             </div>
                         </button>
