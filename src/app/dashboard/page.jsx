@@ -1,7 +1,10 @@
 import React from 'react'
 import { MdOutlineEmojiEvents } from "react-icons/md";
 
+
+
 const page = () => {
+
   return (
     <>
       <div className="min-h-[32rem] flex justify-center items-center gap-10">
@@ -27,4 +30,4 @@ const page = () => {
   )
 }
 
-export default page
+export default page;

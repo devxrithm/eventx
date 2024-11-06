@@ -6,9 +6,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      {/* <Sidebar/> */}
-      ukcode
-
+      <h1>Ukcode</h1>
     </>
   );
 }

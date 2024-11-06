@@ -1,7 +1,7 @@
 import React from 'react'
 import Eventbox from "./eventbox"
 import Searchbar from "@/components/searchbar"
-import Eventpage from "@/app/(dashboard)/events/[eventpage]/page"
+import Eventpage from "@/app/dashboard/events/[eventpage]/page"
 
 const page = () => {
   return (

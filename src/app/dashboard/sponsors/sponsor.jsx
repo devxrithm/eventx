@@ -58,7 +58,7 @@ const sponsor = ({img , name, location, amount, views}) => {
           </div>
           <button className='flex flex-col items-end'>
             <div className="flex gap-1 items-center border lg:px-3 px-20 py-2 justify-center w-[100%] bg-black rounded text-white">
-              <p className='font-medium text-sm '>Apply</p>
+              <p className='font-medium text-sm '>Approach</p>
               <FaArrowRightToBracket className='text-xl' />
             </div>
           </button>

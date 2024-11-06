@@ -12,7 +12,7 @@ import { CiPhone } from "react-icons/ci";
 const page = () => {
   return (
     <>
-      <div className="flex flex-col gap-3 sticky top-5">
+      <div className="flex flex-col gap-3 sticky top-5 min-h-[67rem]">
 
         <div className=" shadow-lg bg-white rounded-lg px-5 py-5 border w-[98%] border-l-8 border-l-teal-500 ">
 
