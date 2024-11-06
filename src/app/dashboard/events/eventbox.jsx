@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
 import { IoTimeOutline } from "react-icons/io5";
-import { GoTrophy } from "react-icons/go";
 import { FaArrowRightToBracket } from "react-icons/fa6";
 import { FaRegEye } from "react-icons/fa";
 

@@ -1,12 +1,7 @@
 import React from 'react'
 import { AiOutlineNotification } from "react-icons/ai";
-import { CgProfile } from "react-icons/cg";
 import { FiMessageSquare } from "react-icons/fi";
 import {
-    ClerkProvider,
-    SignInButton,
-    SignedIn,
-    SignedOut,
     UserButton
 } from '@clerk/nextjs'
 const navbar = () => {
